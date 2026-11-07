@@ -1,0 +1,17 @@
+// Hollow Inverted Pyramid
+#include <stdio.h>
+#include <math.h>
+#include <string.h>
+#include <ctype.h>
+
+int main(void)
+{
+    int i, j, n = 5;
+    for (i = n; i >= 1; i--) {
+        for (j = 1; j <= n - i; j++) printf(" ");
+        for (j = 1; j <= 2 * i - 1; j++)
+            printf((j == 1 || j == 2 * i - 1 || i == n) ? "*" : " ");
+        printf("\n");
+    }
+    return 0;
+}
