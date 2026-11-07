@@ -1,6 +1,6 @@
-# D Programs
+# C Programs
 
-Practice programs in C (folder D_Programs), sorted by topic. Every file is a complete program that compiles and runs on its own.
+Practice programs in C (folder C_Programs), sorted by topic. Every file is a complete program that compiles and runs on its own.
 
 | Folder | Topics |
 |---|---|
